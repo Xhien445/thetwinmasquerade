@@ -13,14 +13,14 @@ body {
   align-items: center;
   height: 100vh;
   overflow: hidden;
-  cursor: url('assets/cursors/cursor-default.png'), auto;
+  cursor: url('/assets/cursors/cursor-default.png'), auto;
 }
 
 a, button, .clickable {
-  cursor: url('assets/cursors/cursor-pointer.png'), pointer;
+  cursor: url('/assets/cursors/cursor-pointer.png'), pointer;
 }
 .enter-button {
-  cursor: url('assets/cursors/cursor-pointer.png'), pointer !important;
+  cursor: url('/assets/cursors/cursor-pointer.png'), pointer !important;
 }
 
 #container {
@@ -71,13 +71,13 @@ iframe {
 
 .curtain.left {
   left: 0;
-  background-image: url('assets/main_page/curtainL.png');
+  background-image: url('/assets/main_page/curtainL.png');
   transform:translateX(+20%);
 }
 
 .curtain.right {
   right: 0;
-  background-image: url('assets/main_page/curtainR.png');
+  background-image: url('/assets/main_page/curtainR.png');
   transform:translateX(0%);
 }
 
@@ -101,7 +101,7 @@ iframe {
   width: 2010px;
   height: 1170px;
   z-index: 5;
-  background-image: url('assets/main_page/frame.png');
+  background-image: url('/assets/main_page/frame.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -199,15 +199,15 @@ iframe {
   width: 150px;
   height: 150px;
   z-index: 1000;
-  cursor: url('assets/cursors/cursor-pointer.png'), pointer;
+  cursor: url('/assets/cursors/cursor-pointer.png'), pointer;
   pointer-events: auto;
-  background-image: url('assets/main_page/arrow.png');
+  background-image: url(/'assets/main_page/arrow.png');
 transform: scaleX(-1);
 
 }
 
 #nav-next {
-  cursor: url('assets/cursors/cursor-pointer.png'), pointer;
+  cursor: url('/assets/cursors/cursor-pointer.png'), pointer;
 pointer-events: auto;
   position: absolute;
   right: 4vw;
@@ -216,7 +216,7 @@ pointer-events: auto;
   width: 150px;
   height: 150px;
   z-index: 1000;
-  background-image: url('assets/main_page/arrow.png');
+  background-image: url('/assets/main_page/arrow.png');
 
 }
 
@@ -228,9 +228,9 @@ pointer-events: auto;
   height: 150px;
   z-index: 1000;
   opacity: 1;
-  cursor: url('assets/cursors/cursor-pointer.png'), pointer;
+  cursor: url('/assets/cursors/cursor-pointer.png'), pointer;
   pointer-events: auto;
-  background-image: url('assets/main_page/unmute.png');
+  background-image: url('/assets/main_page/unmute.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -239,5 +239,5 @@ pointer-events: auto;
 }
 
 #muteToggle.mute-muted {
-  background-image: url('assets/main_page/mute.png');
+  background-image: url('/assets/main_page/mute.png');
 }
